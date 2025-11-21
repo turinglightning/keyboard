@@ -74,10 +74,10 @@
 
             display-name = "Base";
             bindings = <
-&kp CAPS     &kp Q  &kp W                &kp E            &kp R              &kp T            &kp Y      &kp U               &kp I             &kp O                 &kp P           &kp BSPC
+&kp TAB     &kp Q  &kp W                &kp E            &kp R              &kp T            &kp Y      &kp U               &kp I             &kp O             &kp P          &kp BSPC
 &kp LSHFT  &kp A  &kp S  &kp D  &kp F  &kp G            &kp H      &kp J  &kp K  &kp L  &kp SEMI  &kp SQT
-&kp LCTRL   &kp Z  &kp X                &kp C            &kp V              &kp B            &kp N      &kp M               &kp COMMA         &kp DOT               &kp FSLH        &kp ENTER
-                                        &kp LGUI         &mo 1              &kp BACKSPACE    &kp SPACE  &mo 2               &kp LEFT_ALT
+&kp LCTRL   &kp Z  &kp X                &kp C            &kp V              &kp B            &kp N      &kp M               &kp COMMA         &kp DOT         &kp SEMI      &kp BSLH
+                                        &ltq 1 CAPS         &kp BACKSPACE      &kp ENTER        &kp SPACE    &kp EQUAL  &ltq 2  MINUS               
             >;
         };
 
@@ -86,7 +86,7 @@
             bindings = <
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp N0          &trans
 &trans  &trans        &trans        &trans        &trans        &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &msc SCRL_UP    &trans
-&trans  &trans        &trans        &trans        &trans        &trans    &trans          &mkp LCLK       &mkp RCLK     &trans           &msc SCRL_DOWN  &trans
+&trans  &trans        &trans        &trans        &trans        &trans    &trans          &mkp LCLK       &mkp RCLK     &trans           &kp LGUI  &kp R
                                     &trans        &trans        &trans    &trans          &mo 3           &trans
             >;
         };
